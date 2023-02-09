@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HotelManagement" Class="HotelManagementDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MSI\SQLEXPRESS01;Initial Catalog=HotelManagement;Integrated Security=True" SettingsObjectName="HotelManager.Properties.Settings" SettingsPropertyName="HotelManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BILL" Member="BILLs">
+    <Type Name="BILL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDReceiveRoom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StaffSetUp" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfCreate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="RoomPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ServicePrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Surcharge" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Discount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDStatusBill" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="BILL_BILLDETAIL" Member="BILLDETAILs" ThisKey="ID" OtherKey="IDBill" Type="BILLDETAIL" />
+      <Association Name="RECEIVEROOM_BILL" Member="RECEIVEROOM" ThisKey="IDReceiveRoom" OtherKey="ID" Type="RECEIVEROOM" IsForeignKey="true" />
+      <Association Name="STAFF_BILL" Member="STAFF" ThisKey="StaffSetUp" OtherKey="UserName" Type="STAFF" IsForeignKey="true" />
+      <Association Name="STATUSBILL_BILL" Member="STATUSBILL" ThisKey="IDStatusBill" OtherKey="ID" Type="STATUSBILL" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STATUSROOM" Member="STATUSROOMs">
+    <Type Name="STATUSROOM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="STATUSROOM_ROOM" Member="ROOMs" ThisKey="ID" OtherKey="IDStatusRoom" Type="ROOM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BILLDETAILS" Member="BILLDETAILs">
+    <Type Name="BILLDETAIL">
+      <Column Name="IDBill" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDService" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="BILL_BILLDETAIL" Member="BILL" ThisKey="IDBill" OtherKey="ID" Type="BILL" IsForeignKey="true" />
+      <Association Name="SERVICE_BILLDETAIL" Member="SERVICE" ThisKey="IDService" OtherKey="ID" Type="SERVICE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BOOKROOM" Member="BOOKROOMs">
+    <Type Name="BOOKROOM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDCustomer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDRoomType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DateBookRoom" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DateCheckIn" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="DateCheckOut" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="BOOKROOM_RECEIVEROOM" Member="RECEIVEROOMs" ThisKey="ID" OtherKey="IDBookRoom" Type="RECEIVEROOM" />
+      <Association Name="CUSTOMER_BOOKROOM" Member="CUSTOMER" ThisKey="IDCustomer" OtherKey="ID" Type="CUSTOMER" IsForeignKey="true" />
+      <Association Name="ROOMTYPE_BOOKROOM" Member="ROOMTYPE" ThisKey="IDRoomType" OtherKey="ID" Type="ROOMTYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ConvertString" Member="ConvertStrings">
+    <Type Name="ConvertString">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="string" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSTOMER" Member="CUSTOMERs">
+    <Type Name="CUSTOMER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDCard" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IDCustomerType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="CUSTOMER_BOOKROOM" Member="BOOKROOMs" ThisKey="ID" OtherKey="IDCustomer" Type="BOOKROOM" />
+      <Association Name="CUSTOMER_RECEIVEROOMDETAIL" Member="RECEIVEROOMDETAILs" ThisKey="ID" OtherKey="IDCustomerOther" Type="RECEIVEROOMDETAIL" />
+      <Association Name="CUSTOMERTYPE_CUSTOMER" Member="CUSTOMERTYPE" ThisKey="IDCustomerType" OtherKey="ID" Type="CUSTOMERTYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUSTOMERTYPE" Member="CUSTOMERTYPEs">
+    <Type Name="CUSTOMERTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="CUSTOMERTYPE_CUSTOMER" Member="CUSTOMERs" ThisKey="ID" OtherKey="IDCustomerType" Type="CUSTOMER" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Job" Member="Jobs">
+    <Type Name="Job">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="NameForm" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PARAMETER" Member="PARAMETERs">
+    <Type Name="PARAMETER">
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Describe" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="datemodify" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RECEIVEROOM" Member="RECEIVEROOMs">
+    <Type Name="RECEIVEROOM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDBookRoom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDRoom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="RECEIVEROOM_BILL" Member="BILLs" ThisKey="ID" OtherKey="IDReceiveRoom" Type="BILL" />
+      <Association Name="RECEIVEROOM_RECEIVEROOMDETAIL" Member="RECEIVEROOMDETAILs" ThisKey="ID" OtherKey="IDReceiveRoom" Type="RECEIVEROOMDETAIL" />
+      <Association Name="BOOKROOM_RECEIVEROOM" Member="BOOKROOM" ThisKey="IDBookRoom" OtherKey="ID" Type="BOOKROOM" IsForeignKey="true" />
+      <Association Name="ROOM_RECEIVEROOM" Member="ROOM" ThisKey="IDRoom" OtherKey="ID" Type="ROOM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RECEIVEROOMDETAILS" Member="RECEIVEROOMDETAILs">
+    <Type Name="RECEIVEROOMDETAIL">
+      <Column Name="IDReceiveRoom" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IDCustomerOther" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CUSTOMER_RECEIVEROOMDETAIL" Member="CUSTOMER" ThisKey="IDCustomerOther" OtherKey="ID" Type="CUSTOMER" IsForeignKey="true" />
+      <Association Name="RECEIVEROOM_RECEIVEROOMDETAIL" Member="RECEIVEROOM" ThisKey="IDReceiveRoom" OtherKey="ID" Type="RECEIVEROOM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.REPORTS" Member="REPORTs">
+    <Type Name="REPORT">
+      <Column Name="IDReport" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rate" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Month" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Year" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="value" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ROOMTYPE_REPORT" Member="ROOMTYPE" ThisKey="ID" OtherKey="ID" Type="ROOMTYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ROOM" Member="ROOMs">
+    <Type Name="ROOM">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IDRoomType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDStatusRoom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ROOM_RECEIVEROOM" Member="RECEIVEROOMs" ThisKey="ID" OtherKey="IDRoom" Type="RECEIVEROOM" />
+      <Association Name="STATUSROOM_ROOM" Member="STATUSROOM" ThisKey="IDStatusRoom" OtherKey="ID" Type="STATUSROOM" IsForeignKey="true" />
+      <Association Name="ROOMTYPE_ROOM" Member="ROOMTYPE" ThisKey="IDRoomType" OtherKey="ID" Type="ROOMTYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ROOMTYPE" Member="ROOMTYPEs">
+    <Type Name="ROOMTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LimitPerson" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ROOMTYPE_BOOKROOM" Member="BOOKROOMs" ThisKey="ID" OtherKey="IDRoomType" Type="BOOKROOM" />
+      <Association Name="ROOMTYPE_REPORT" Member="REPORTs" ThisKey="ID" OtherKey="ID" Type="REPORT" />
+      <Association Name="ROOMTYPE_ROOM" Member="ROOMs" ThisKey="ID" OtherKey="IDRoomType" Type="ROOM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SERVICE" Member="SERVICEs">
+    <Type Name="SERVICE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="IDServiceType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Picture" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="SERVICE_BILLDETAIL" Member="BILLDETAILs" ThisKey="ID" OtherKey="IDService" Type="BILLDETAIL" />
+      <Association Name="SERVICETYPE_SERVICE" Member="SERVICETYPE" ThisKey="IDServiceType" OtherKey="ID" Type="SERVICETYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SERVICETYPE" Member="SERVICETYPEs">
+    <Type Name="SERVICETYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="SERVICETYPE_SERVICE" Member="SERVICEs" ThisKey="ID" OtherKey="IDServiceType" Type="SERVICE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STAFF" Member="STAFFs">
+    <Type Name="STAFF">
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="PassWord" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IDStaffType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDCard" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="PhoneNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartDay" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="STAFF_BILL" Member="BILLs" ThisKey="UserName" OtherKey="StaffSetUp" Type="BILL" />
+      <Association Name="STAFFTYPE_STAFF" Member="STAFFTYPE" ThisKey="IDStaffType" OtherKey="ID" Type="STAFFTYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STAFFTYPE" Member="STAFFTYPEs">
+    <Type Name="STAFFTYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="STAFFTYPE_STAFF" Member="STAFFs" ThisKey="ID" OtherKey="IDStaffType" Type="STAFF" />
+    </Type>
+  </Table>
+  <Table Name="dbo.STATUSBILL" Member="STATUSBILLs">
+    <Type Name="STATUSBILL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="STATUSBILL_BILL" Member="BILLs" ThisKey="ID" OtherKey="IDStatusBill" Type="BILL" />
+    </Type>
+  </Table>
+  <Function Name="dbo.USP_UpdateService" Method="USP_UpdateService">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="name" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="idServiceType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="price" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="picture" Type="System.Data.Linq.Binary" DbType="Image" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.USP_InsertService" Method="USP_InsertService">
+    <Parameter Name="name" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="idServiceType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="price" Type="System.Int32" DbType="Int" />
+    <Parameter Name="quantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="picture" Type="System.Data.Linq.Binary" DbType="Image" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

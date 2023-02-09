@@ -1,0 +1,619 @@
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.exe.config
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.exe
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.pdb
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.Design.dll
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.dll
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csprojResolveAssemblyReference.cache
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fLogin.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.Cache
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.exe
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.pdb
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fManager.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MaterialSkin.dll
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fUseService.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+C:\Users\NguyễnDuyCương\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+D:\HotelManager\HotelManager\bin\Debug\HotelManager.exe.config
+D:\HotelManager\HotelManager\bin\Debug\HotelManager.exe
+D:\HotelManager\HotelManager\bin\Debug\HotelManager.pdb
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.csprojResolveAssemblyReference.cache
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fManager.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fLogin.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fUseService.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.exe
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.pdb
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fPay.resources
+D:\HotelManager\HotelManager\obj\Debug\HotelManager.fRoom.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\bin\Debug\HotelManager.exe.config
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\bin\Debug\HotelManager.exe
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\bin\Debug\HotelManager.pdb
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.csprojResolveAssemblyReference.cache
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fManager.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fLogin.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fPay.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fRoom.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fUseService.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.exe
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.pdb
+C:\Users\ndc07\Desktop\HotelManager\HotelManager\obj\Debug\HotelManager.fProfile.resources
+C:\Users\ndc07\Downloads\HotelManager\HotelManager\bin\Debug\HotelManager.exe.config
+C:\Users\ndc07\Downloads\HotelManager\HotelManager\obj\Debug\HotelManager.exe
+C:\Users\ndc07\Downloads\HotelManager\HotelManager\obj\Debug\HotelManager.pdb
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csprojAssemblyReference.cache
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.ResolveComReference.cache
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAbout.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fBill.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fCustomer.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fManagement.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fLogin.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fParameter.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fPrintBill.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fProfile.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fReport.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fRoom.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fRoomType.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fService.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fServiceType.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fStaff.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fUseService.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.exe.config
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.exe
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\HotelManager.pdb
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\FlashControlV71.dll
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.Design.dll
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.dll
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.exe
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.pdb
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fReceiveRoomDetails.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fUpdateCustomerInfo.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fChangeRoom.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fBookRoomDetails.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAccess.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddStaffType.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddStaff.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddCustomer.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddRoom.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddService.resources
+C:\Users\ndc07\Documents\WF Project\HotelManager\HotelManager\obj\Debug\HotelManager.fAddServiceType.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\HotelManager.exe.config
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\HotelManager.exe
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\HotelManager.pdb
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\FlashControlV71.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.AssemblyReference.cache
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.ResolveComReference.cache
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAbout.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAccess.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddCustomer.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddRoom.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddService.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddServiceType.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddStaff.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddStaffType.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBill.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBookRoomDetails.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fChangeRoom.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fCustomer.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fManagement.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fLogin.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fParameter.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fPrintBill.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fProfile.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReceiveRoomDetails.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReport.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fRoom.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fRoomType.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fService.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fServiceType.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fStaff.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fUpdateCustomerInfo.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.fUseService.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.exe
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.pdb
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Azure.Core.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Azure.Identity.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Buffers.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Memory.Data.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Memory.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Permissions.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Text.Json.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.ValueTuple.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Azure.Core.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Azure.Identity.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Buffers.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Memory.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Memory.Data.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Permissions.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Text.Json.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\System.ValueTuple.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Dapper.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\log4net.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\Dapper.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\log4net.xml
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+C:\Users\Adminstrator\Downloads\Hotel\DoAn\hotel-management-master\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\HotelManager.exe.config
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\HotelManager.exe
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\HotelManager.pdb
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Azure.Core.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Azure.Identity.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\CrystalDecisions.Shared.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Dapper.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\FlashControlV71.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\log4net.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Buffers.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Memory.Data.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Memory.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Numerics.Vectors.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.AccessControl.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Permissions.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Principal.Windows.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Text.Encodings.Web.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Text.Json.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.ValueTuple.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Azure.Core.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Azure.Identity.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Dapper.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\log4net.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Buffers.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Memory.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Memory.Data.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Numerics.Vectors.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.AccessControl.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Permissions.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Security.Principal.Windows.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Text.Encodings.Web.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Text.Json.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\System.ValueTuple.xml
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.AssemblyReference.cache
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.SuggestedBindingRedirects.cache
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.ResolveComReference.cache
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAbout.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAccess.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddCustomer.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddRoom.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddService.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddServiceType.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddStaff.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fAddStaffType.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBill.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBookRoomDetails.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fChangeRoom.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fCustomer.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fManagement.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fLogin.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fParameter.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fPrintBill.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fProfile.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReceiveRoomDetails.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fReport.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fRoom.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fRoomType.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fService.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fServiceType.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fStaff.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fUpdateCustomerInfo.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.fUseService.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.exe
+D:\jupy\hotel-management-master\HotelManager\obj\Debug\HotelManager.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\HotelManager.exe.config
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\HotelManager.exe
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\HotelManager.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Azure.Core.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Azure.Identity.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\CrystalDecisions.Shared.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Dapper.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\FlashControlV71.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\log4net.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Identity.Client.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Buffers.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Memory.Data.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Memory.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Numerics.Vectors.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.AccessControl.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Permissions.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Principal.Windows.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Text.Encodings.Web.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Text.Json.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.ValueTuple.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Azure.Core.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Azure.Identity.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Dapper.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\log4net.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Identity.Client.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Buffers.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Memory.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Memory.Data.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Numerics.Vectors.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.AccessControl.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Permissions.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Security.Principal.Windows.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Text.Encodings.Web.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Text.Json.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.ValueTuple.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\cs\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\da\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\fi\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\hu\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\nb-NO\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\pl\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ru\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\sk\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\th\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\tr\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.CrystalReports.Engine.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\cs\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\da\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\de\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\en\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\es\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\fi\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\fr\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\hu\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\it\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ja\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ko\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\nb-NO\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\nl\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\pl\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\pt\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ru\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\sk\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\sv\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\th\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\tr\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-CHS\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-CHT\CrystalDecisions.Shared.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.AssemblyReference.cache
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.ResolveComReference.cache
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAbout.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAccess.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddCustomer.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddCustomerInfo.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddRoom.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddService.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddServiceType.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddStaff.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fAddStaffType.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fBill.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fBookRoomDetails.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fChangeRoom.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fCustomer.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fManagement.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fLogin.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fBookRoom.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fParameter.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fPrintBill.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fProfile.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fReceiveRoom.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fReceiveRoomDetails.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fReport.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fRoom.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fRoomType.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fService.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fServiceType.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fStaff.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fUpdateCustomerInfo.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.fUseService.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.Properties.Resources.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.GenerateResource.cache
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.CoreCompileInputs.cache
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.CopyComplete
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.exe
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\grpc_csharp_ext.x86.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\grpc_csharp_ext.x64.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\libgrpc_csharp_ext.x64.so
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\libgrpc_csharp_ext.x64.dylib
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\EntityFramework.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\EntityFramework.SqlServer.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.Api.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\EntityFramework.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\EntityFramework.SqlServer.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.Api.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Grpc.Core.Api.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Collections.Immutable.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.Diagnostics.Eventing.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.Foundation.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.Foundation.Logging.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.Composition.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.Dispatching.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.v1.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.v2.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.Toolkit.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.Xaml.dll
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\System.Collections.Immutable.xml
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.Diagnostics.Eventing.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.v1.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.FluentTheme.v2.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\bin\Debug\Uno.UI.Toolkit.pdb
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.Input.resources
+D:\Vs Code\QuanLyKhachSanThucTap\HotelManager\obj\Debug\HotelManager.csproj.SuggestedBindingRedirects.cache

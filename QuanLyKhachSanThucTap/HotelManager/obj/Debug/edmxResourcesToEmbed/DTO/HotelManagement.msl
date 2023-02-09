@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HotelManagementModelStoreContainer" CdmEntityContainer="HotelManagementEntities">
+    <EntitySetMapping Name="BILLs">
+      <EntityTypeMapping TypeName="HotelManagementModel.BILL">
+        <MappingFragment StoreEntitySet="BILL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDReceiveRoom" ColumnName="IDReceiveRoom" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="RoomPrice" ColumnName="RoomPrice" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="Surcharge" ColumnName="Surcharge" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="IDStatusBill" ColumnName="IDStatusBill" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BILLDETAILS">
+      <EntityTypeMapping TypeName="HotelManagementModel.BILLDETAIL">
+        <MappingFragment StoreEntitySet="BILLDETAILS">
+          <ScalarProperty Name="IDBill" ColumnName="IDBill" />
+          <ScalarProperty Name="IDService" ColumnName="IDService" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOOKROOMs">
+      <EntityTypeMapping TypeName="HotelManagementModel.BOOKROOM">
+        <MappingFragment StoreEntitySet="BOOKROOM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCustomer" ColumnName="IDCustomer" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="DateBookRoom" ColumnName="DateBookRoom" />
+          <ScalarProperty Name="DateCheckIn" ColumnName="DateCheckIn" />
+          <ScalarProperty Name="DateCheckOut" ColumnName="DateCheckOut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConvertStrings">
+      <EntityTypeMapping TypeName="HotelManagementModel.ConvertString">
+        <MappingFragment StoreEntitySet="ConvertString">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="string" ColumnName="string" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUSTOMERs">
+      <EntityTypeMapping TypeName="HotelManagementModel.CUSTOMER">
+        <MappingFragment StoreEntitySet="CUSTOMER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="IDCustomerType" ColumnName="IDCustomerType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUSTOMERTYPEs">
+      <EntityTypeMapping TypeName="HotelManagementModel.CUSTOMERTYPE">
+        <MappingFragment StoreEntitySet="CUSTOMERTYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobs">
+      <EntityTypeMapping TypeName="HotelManagementModel.Job">
+        <MappingFragment StoreEntitySet="Job">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameForm" ColumnName="NameForm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECEIVEROOMs">
+      <EntityTypeMapping TypeName="HotelManagementModel.RECEIVEROOM">
+        <MappingFragment StoreEntitySet="RECEIVEROOM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDBookRoom" ColumnName="IDBookRoom" />
+          <ScalarProperty Name="IDRoom" ColumnName="IDRoom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REPORTS">
+      <EntityTypeMapping TypeName="HotelManagementModel.REPORT">
+        <MappingFragment StoreEntitySet="REPORTS">
+          <ScalarProperty Name="IDReport" ColumnName="IDReport" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="value" ColumnName="value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROOMs">
+      <EntityTypeMapping TypeName="HotelManagementModel.ROOM">
+        <MappingFragment StoreEntitySet="ROOM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="IDStatusRoom" ColumnName="IDStatusRoom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROOMTYPEs">
+      <EntityTypeMapping TypeName="HotelManagementModel.ROOMTYPE">
+        <MappingFragment StoreEntitySet="ROOMTYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICEs">
+      <EntityTypeMapping TypeName="HotelManagementModel.SERVICE">
+        <MappingFragment StoreEntitySet="SERVICE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDServiceType" ColumnName="IDServiceType" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICETYPEs">
+      <EntityTypeMapping TypeName="HotelManagementModel.SERVICETYPE">
+        <MappingFragment StoreEntitySet="SERVICETYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFFs">
+      <EntityTypeMapping TypeName="HotelManagementModel.STAFF">
+        <MappingFragment StoreEntitySet="STAFF">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFFTYPEs">
+      <EntityTypeMapping TypeName="HotelManagementModel.STAFFTYPE">
+        <MappingFragment StoreEntitySet="STAFFTYPE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STATUSBILLs">
+      <EntityTypeMapping TypeName="HotelManagementModel.STATUSBILL">
+        <MappingFragment StoreEntitySet="STATUSBILL">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STATUSROOMs">
+      <EntityTypeMapping TypeName="HotelManagementModel.STATUSROOM">
+        <MappingFragment StoreEntitySet="STATUSROOM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="HotelManagementModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARAMETERs">
+      <EntityTypeMapping TypeName="HotelManagementModel.PARAMETER">
+        <MappingFragment StoreEntitySet="PARAMETER">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="datemodify" ColumnName="datemodify" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="RECEIVEROOMDETAILS" TypeName="HotelManagementModel.RECEIVEROOMDETAILS" StoreEntitySet="RECEIVEROOMDETAILS">
+      <EndProperty Name="CUSTOMER">
+        <ScalarProperty Name="ID" ColumnName="IDCustomerOther" />
+      </EndProperty>
+      <EndProperty Name="RECEIVEROOM">
+        <ScalarProperty Name="ID" ColumnName="IDReceiveRoom" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="GetIDReceiveRoomCurrent" FunctionName="HotelManagementModel.Store.GetIDReceiveRoomCurrent" />
+    <FunctionImportMapping FunctionImportName="InsertReceiveRoom" FunctionName="HotelManagementModel.Store.InsertReceiveRoom" />
+    <FunctionImportMapping FunctionImportName="InsertReceiveRoomDetails" FunctionName="HotelManagementModel.Store.InsertReceiveRoomDetails" />
+    <FunctionImportMapping FunctionImportName="ShowBookRoomInfo" FunctionName="HotelManagementModel.Store.ShowBookRoomInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.ShowBookRoomInfo_Result">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="RoomTypeName" ColumnName="RoomTypeName" />
+          <ScalarProperty Name="DateCheckIn" ColumnName="DateCheckIn" />
+          <ScalarProperty Name="DateCheckOut" ColumnName="DateCheckOut" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="HotelManagementModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="HotelManagementModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="HotelManagementModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="HotelManagementModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="HotelManagementModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="HotelManagementModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="HotelManagementModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="USP_ChekcAccess" FunctionName="HotelManagementModel.Store.USP_ChekcAccess" />
+    <FunctionImportMapping FunctionImportName="USP_ChekcAccess1" FunctionName="HotelManagementModel.Store.USP_ChekcAccess1" />
+    <FunctionImportMapping FunctionImportName="USP_DeleteAccess" FunctionName="HotelManagementModel.Store.USP_DeleteAccess" />
+    <FunctionImportMapping FunctionImportName="USP_DeleteBookRoom" FunctionName="HotelManagementModel.Store.USP_DeleteBookRoom" />
+    <FunctionImportMapping FunctionImportName="USP_DeleteReceiveRoomDetails" FunctionName="HotelManagementModel.Store.USP_DeleteReceiveRoomDetails" />
+    <FunctionImportMapping FunctionImportName="USP_DeleteStaffType" FunctionName="HotelManagementModel.Store.USP_DeleteStaffType" />
+    <FunctionImportMapping FunctionImportName="USP_GetCustomerTypeNameByIdCard" FunctionName="HotelManagementModel.Store.USP_GetCustomerTypeNameByIdCard" />
+    <FunctionImportMapping FunctionImportName="USP_GetIdBillFromIdRoom" FunctionName="HotelManagementModel.Store.USP_GetIdBillFromIdRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetIdBillFromIdRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDReceiveRoom" ColumnName="IDReceiveRoom" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="RoomPrice" ColumnName="RoomPrice" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="Surcharge" ColumnName="Surcharge" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="IDStatusBill" ColumnName="IDStatusBill" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetIdBillMax" FunctionName="HotelManagementModel.Store.USP_GetIdBillMax" />
+    <FunctionImportMapping FunctionImportName="USP_GetIDCustomerFromBookRoom" FunctionName="HotelManagementModel.Store.USP_GetIDCustomerFromBookRoom" />
+    <FunctionImportMapping FunctionImportName="USP_GetIdReceiRoomFromIdRoom" FunctionName="HotelManagementModel.Store.USP_GetIdReceiRoomFromIdRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetIdReceiRoomFromIdRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDBookRoom" ColumnName="IDBookRoom" />
+          <ScalarProperty Name="IDRoom" ColumnName="IDRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetIDRoomFromReceiveRoom" FunctionName="HotelManagementModel.Store.USP_GetIDRoomFromReceiveRoom" />
+    <FunctionImportMapping FunctionImportName="USP_GetNameStaffTypeByUserName" FunctionName="HotelManagementModel.Store.USP_GetNameStaffTypeByUserName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetNameStaffTypeByUserName_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetNameStaffTypeByUserName1" FunctionName="HotelManagementModel.Store.USP_GetNameStaffTypeByUserName1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetNameStaffTypeByUserName1_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetPeoples" FunctionName="HotelManagementModel.Store.USP_GetPeoples" />
+    <FunctionImportMapping FunctionImportName="USP_GetRoomTypeByIdBookRoom" FunctionName="HotelManagementModel.Store.USP_GetRoomTypeByIdBookRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetRoomTypeByIdBookRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetRoomTypeByIdRoom" FunctionName="HotelManagementModel.Store.USP_GetRoomTypeByIdRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetRoomTypeByIdRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_GetStaffSetUp" FunctionName="HotelManagementModel.Store.USP_GetStaffSetUp">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_GetStaffSetUp_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_InsertAccess" FunctionName="HotelManagementModel.Store.USP_InsertAccess" />
+    <FunctionImportMapping FunctionImportName="USP_InsertBill" FunctionName="HotelManagementModel.Store.USP_InsertBill" />
+    <FunctionImportMapping FunctionImportName="USP_InsertBillDetails" FunctionName="HotelManagementModel.Store.USP_InsertBillDetails" />
+    <FunctionImportMapping FunctionImportName="USP_InsertBookRoom" FunctionName="HotelManagementModel.Store.USP_InsertBookRoom" />
+    <FunctionImportMapping FunctionImportName="USP_InsertCustomer" FunctionName="HotelManagementModel.Store.USP_InsertCustomer" />
+    <FunctionImportMapping FunctionImportName="USP_InsertCustomer_" FunctionName="HotelManagementModel.Store.USP_InsertCustomer_" />
+    <FunctionImportMapping FunctionImportName="USP_InsertReport" FunctionName="HotelManagementModel.Store.USP_InsertReport" />
+    <FunctionImportMapping FunctionImportName="USP_InsertReport1" FunctionName="HotelManagementModel.Store.USP_InsertReport1" />
+    <FunctionImportMapping FunctionImportName="USP_InsertRoom" FunctionName="HotelManagementModel.Store.USP_InsertRoom" />
+    <FunctionImportMapping FunctionImportName="USP_InsertService" FunctionName="HotelManagementModel.Store.USP_InsertService" />
+    <FunctionImportMapping FunctionImportName="USP_InsertServiceType" FunctionName="HotelManagementModel.Store.USP_InsertServiceType" />
+    <FunctionImportMapping FunctionImportName="USP_InsertStaff" FunctionName="HotelManagementModel.Store.USP_InsertStaff" />
+    <FunctionImportMapping FunctionImportName="USP_InsertStaffType" FunctionName="HotelManagementModel.Store.USP_InsertStaffType" />
+    <FunctionImportMapping FunctionImportName="USP_IsExistBillDetailsOfRoom" FunctionName="HotelManagementModel.Store.USP_IsExistBillDetailsOfRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsExistBillDetailsOfRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDReceiveRoom" ColumnName="IDReceiveRoom" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="RoomPrice" ColumnName="RoomPrice" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="Surcharge" ColumnName="Surcharge" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="IDStatusBill" ColumnName="IDStatusBill" />
+          <ScalarProperty Name="IDBill" ColumnName="IDBill" />
+          <ScalarProperty Name="IDService" ColumnName="IDService" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="TotalPrice1" ColumnName="TotalPrice1" />
+          <ScalarProperty Name="ID1" ColumnName="ID1" />
+          <ScalarProperty Name="IDBookRoom" ColumnName="IDBookRoom" />
+          <ScalarProperty Name="IDRoom" ColumnName="IDRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_IsExistBillOfRoom" FunctionName="HotelManagementModel.Store.USP_IsExistBillOfRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsExistBillOfRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDReceiveRoom" ColumnName="IDReceiveRoom" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="RoomPrice" ColumnName="RoomPrice" />
+          <ScalarProperty Name="ServicePrice" ColumnName="ServicePrice" />
+          <ScalarProperty Name="Surcharge" ColumnName="Surcharge" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="IDStatusBill" ColumnName="IDStatusBill" />
+          <ScalarProperty Name="ID1" ColumnName="ID1" />
+          <ScalarProperty Name="IDBookRoom" ColumnName="IDBookRoom" />
+          <ScalarProperty Name="IDRoom" ColumnName="IDRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_IsIDBookRoomExists" FunctionName="HotelManagementModel.Store.USP_IsIDBookRoomExists">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsIDBookRoomExists_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCustomer" ColumnName="IDCustomer" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="DateBookRoom" ColumnName="DateBookRoom" />
+          <ScalarProperty Name="DateCheckIn" ColumnName="DateCheckIn" />
+          <ScalarProperty Name="DateCheckOut" ColumnName="DateCheckOut" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_IsIdCardExists" FunctionName="HotelManagementModel.Store.USP_IsIdCardExists">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsIdCardExists_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="IDCustomerType" ColumnName="IDCustomerType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_IsIdCardExistsAcc" FunctionName="HotelManagementModel.Store.USP_IsIdCardExistsAcc">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsIdCardExistsAcc_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_IsIdCardExistsAcc1" FunctionName="HotelManagementModel.Store.USP_IsIdCardExistsAcc1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_IsIdCardExistsAcc1_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadBookRoomsByDate" FunctionName="HotelManagementModel.Store.USP_LoadBookRoomsByDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadBookRoomsByDate_Result">
+          <ScalarProperty Name="Mã_đặt_phòng" ColumnName="Mã đặt phòng" />
+          <ScalarProperty Name="Họ_và_tên" ColumnName="Họ và tên" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Loại_phòng" ColumnName="Loại phòng" />
+          <ScalarProperty Name="Ngày_nhận" ColumnName="Ngày nhận" />
+          <ScalarProperty Name="Ngày_trả" ColumnName="Ngày trả" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadEmptyRoom" FunctionName="HotelManagementModel.Store.USP_LoadEmptyRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadEmptyRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="IDStatusRoom" ColumnName="IDStatusRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullAccessNow" FunctionName="HotelManagementModel.Store.USP_LoadFullAccessNow">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullAccessNow_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullAccessNow1" FunctionName="HotelManagementModel.Store.USP_LoadFullAccessNow1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullAccessNow1_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullAccessRest1" FunctionName="HotelManagementModel.Store.USP_LoadFullAccessRest1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullAccessRest1_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFUllBill" FunctionName="HotelManagementModel.Store.USP_LoadFUllBill">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFUllBill_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roomName" ColumnName="roomName" />
+          <ScalarProperty Name="customername" ColumnName="customername" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="FinalPrice" ColumnName="FinalPrice" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullCustomer" FunctionName="HotelManagementModel.Store.USP_LoadFullCustomer">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullCustomer_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="NameCustomerType" ColumnName="NameCustomerType" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="IDCustomerType" ColumnName="IDCustomerType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullCustomerType" FunctionName="HotelManagementModel.Store.USP_LoadFullCustomerType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullCustomerType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullParameter" FunctionName="HotelManagementModel.Store.USP_LoadFullParameter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullParameter_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="datemodify" ColumnName="datemodify" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullParameter1" FunctionName="HotelManagementModel.Store.USP_LoadFullParameter1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullParameter1_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="datemodify" ColumnName="datemodify" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullReport" FunctionName="HotelManagementModel.Store.USP_LoadFullReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullReport_Result">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullReport1" FunctionName="HotelManagementModel.Store.USP_LoadFullReport1" />
+    <FunctionImportMapping FunctionImportName="USP_LoadFullReport2" FunctionName="HotelManagementModel.Store.USP_LoadFullReport2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullReport2_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullReport3" FunctionName="HotelManagementModel.Store.USP_LoadFullReport3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullReport3_Result">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="rate" ColumnName="rate" />
+          <ScalarProperty Name="all" ColumnName="all" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullRoom" FunctionName="HotelManagementModel.Store.USP_LoadFullRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="nameRoomType" ColumnName="nameRoomType" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+          <ScalarProperty Name="nameStatusRoom" ColumnName="nameStatusRoom" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="IDStatusRoom" ColumnName="IDStatusRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullRoomType" FunctionName="HotelManagementModel.Store.USP_LoadFullRoomType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullRoomType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullService" FunctionName="HotelManagementModel.Store.USP_LoadFullService">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullService_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="nameServiceType" ColumnName="nameServiceType" />
+          <ScalarProperty Name="IDServiceType" ColumnName="IDServiceType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullServiceType" FunctionName="HotelManagementModel.Store.USP_LoadFullServiceType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullServiceType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullStaff" FunctionName="HotelManagementModel.Store.USP_LoadFullStaff">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullStaff_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullStaffType" FunctionName="HotelManagementModel.Store.USP_LoadFullStaffType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullStaffType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullStaffType1" FunctionName="HotelManagementModel.Store.USP_LoadFullStaffType1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullStaffType1_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadFullStatusRoom" FunctionName="HotelManagementModel.Store.USP_LoadFullStatusRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadFullStatusRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadListFullRoom" FunctionName="HotelManagementModel.Store.USP_LoadListFullRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadListFullRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="IDStatusRoom" ColumnName="IDStatusRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadReceiveRoomsByDate" FunctionName="HotelManagementModel.Store.USP_LoadReceiveRoomsByDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadReceiveRoomsByDate_Result">
+          <ScalarProperty Name="Mã_nhận_phòng" ColumnName="Mã nhận phòng" />
+          <ScalarProperty Name="Họ_và_tên" ColumnName="Họ và tên" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Tên_phòng" ColumnName="Tên phòng" />
+          <ScalarProperty Name="Ngày_nhận" ColumnName="Ngày nhận" />
+          <ScalarProperty Name="Ngày_trả" ColumnName="Ngày trả" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadServiceByServiceType" FunctionName="HotelManagementModel.Store.USP_LoadServiceByServiceType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadServiceByServiceType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDServiceType" ColumnName="IDServiceType" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadStaffInforByUserName" FunctionName="HotelManagementModel.Store.USP_LoadStaffInforByUserName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadStaffInforByUserName_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_LoadStaffInforByUserName1" FunctionName="HotelManagementModel.Store.USP_LoadStaffInforByUserName1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_LoadStaffInforByUserName1_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_Login" FunctionName="HotelManagementModel.Store.USP_Login">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_Login_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_RoomTypeInfo" FunctionName="HotelManagementModel.Store.USP_RoomTypeInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_RoomTypeInfo_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchBill" FunctionName="HotelManagementModel.Store.USP_SearchBill">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchBill_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="roomName" ColumnName="roomName" />
+          <ScalarProperty Name="customerName" ColumnName="customerName" />
+          <ScalarProperty Name="StaffSetUp" ColumnName="StaffSetUp" />
+          <ScalarProperty Name="DateOfCreate" ColumnName="DateOfCreate" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="FinalPrice" ColumnName="FinalPrice" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchCustomer" FunctionName="HotelManagementModel.Store.USP_SearchCustomer">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchCustomer_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="NameCustomerType" ColumnName="NameCustomerType" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="IDCustomerType" ColumnName="IDCustomerType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchParameter" FunctionName="HotelManagementModel.Store.USP_SearchParameter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchParameter_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="datemodify" ColumnName="datemodify" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchRoom" FunctionName="HotelManagementModel.Store.USP_SearchRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchRoom_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="nameRoomType" ColumnName="nameRoomType" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+          <ScalarProperty Name="nameStatusRoom" ColumnName="nameStatusRoom" />
+          <ScalarProperty Name="IDRoomType" ColumnName="IDRoomType" />
+          <ScalarProperty Name="IDStatusRoom" ColumnName="IDStatusRoom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchRoomType" FunctionName="HotelManagementModel.Store.USP_SearchRoomType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchRoomType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="LimitPerson" ColumnName="LimitPerson" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchService" FunctionName="HotelManagementModel.Store.USP_SearchService">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchService_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="nameServiceType" ColumnName="nameServiceType" />
+          <ScalarProperty Name="IDServiceType" ColumnName="IDServiceType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchServiceType" FunctionName="HotelManagementModel.Store.USP_SearchServiceType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchServiceType_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchStaff" FunctionName="HotelManagementModel.Store.USP_SearchStaff" />
+    <FunctionImportMapping FunctionImportName="USP_SearchStaff1" FunctionName="HotelManagementModel.Store.USP_SearchStaff1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchStaff1_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_SearchStaff3" FunctionName="HotelManagementModel.Store.USP_SearchStaff3">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_SearchStaff3_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StartDay" ColumnName="StartDay" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="IDStaffType" ColumnName="IDStaffType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowBill" FunctionName="HotelManagementModel.Store.USP_ShowBill">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowBill_Result">
+          <ScalarProperty Name="Tên_dịch_vụ" ColumnName="Tên dịch vụ" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+          <ScalarProperty Name="Số_lượng" ColumnName="Số lượng" />
+          <ScalarProperty Name="Thành_tiền" ColumnName="Thành tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowBillInfo" FunctionName="HotelManagementModel.Store.USP_ShowBillInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowBillInfo_Result">
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="LoaiKH" ColumnName="LoaiKH" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="QuocTich" ColumnName="QuocTich" />
+          <ScalarProperty Name="TenPhong" ColumnName="TenPhong" />
+          <ScalarProperty Name="LoaiPhong" ColumnName="LoaiPhong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="NgayDen" ColumnName="NgayDen" />
+          <ScalarProperty Name="NgayDi" ColumnName="NgayDi" />
+          <ScalarProperty Name="TienPhong" ColumnName="TienPhong" />
+          <ScalarProperty Name="TienDichVu" ColumnName="TienDichVu" />
+          <ScalarProperty Name="PhuThu" ColumnName="PhuThu" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowBillPreView" FunctionName="HotelManagementModel.Store.USP_ShowBillPreView">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowBillPreView_Result">
+          <ScalarProperty Name="Tên_dịch_vụ" ColumnName="Tên dịch vụ" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+          <ScalarProperty Name="Số_lượng" ColumnName="Số lượng" />
+          <ScalarProperty Name="Thành_tiền" ColumnName="Thành tiền" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowBillRoom" FunctionName="HotelManagementModel.Store.USP_ShowBillRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowBillRoom_Result">
+          <ScalarProperty Name="Tên_phòng" ColumnName="Tên phòng" />
+          <ScalarProperty Name="Đơn_giá" ColumnName="Đơn giá" />
+          <ScalarProperty Name="Ngày_nhận" ColumnName="Ngày nhận" />
+          <ScalarProperty Name="Ngày_trả" ColumnName="Ngày trả" />
+          <ScalarProperty Name="Tiền_phòng" ColumnName="Tiền phòng" />
+          <ScalarProperty Name="Phụ_thu" ColumnName="Phụ thu" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowCustomerFromReceiveRoom" FunctionName="HotelManagementModel.Store.USP_ShowCustomerFromReceiveRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowCustomerFromReceiveRoom_Result">
+          <ScalarProperty Name="Tên_khách_hàng" ColumnName="Tên khách hàng" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="Địa_chỉ" ColumnName="Địa chỉ" />
+          <ScalarProperty Name="Số_điện_thoại" ColumnName="Số điện thoại" />
+          <ScalarProperty Name="Quốc_tịch" ColumnName="Quốc tịch" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_ShowReceiveRoom" FunctionName="HotelManagementModel.Store.USP_ShowReceiveRoom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HotelManagementModel.USP_ShowReceiveRoom_Result">
+          <ScalarProperty Name="Mã_nhận_phòng" ColumnName="Mã nhận phòng" />
+          <ScalarProperty Name="Tên_phòng" ColumnName="Tên phòng" />
+          <ScalarProperty Name="Ngày_nhận" ColumnName="Ngày nhận" />
+          <ScalarProperty Name="Ngày_trả" ColumnName="Ngày trả" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="USP_UpdateBill_Other" FunctionName="HotelManagementModel.Store.USP_UpdateBill_Other" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateBill_RoomPrice" FunctionName="HotelManagementModel.Store.USP_UpdateBill_RoomPrice" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateBill_ServicePrice" FunctionName="HotelManagementModel.Store.USP_UpdateBill_ServicePrice" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateBillDetails" FunctionName="HotelManagementModel.Store.USP_UpdateBillDetails" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateBookRoom" FunctionName="HotelManagementModel.Store.USP_UpdateBookRoom" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateCustomer" FunctionName="HotelManagementModel.Store.USP_UpdateCustomer" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateCustomer_" FunctionName="HotelManagementModel.Store.USP_UpdateCustomer_" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateDisplayName" FunctionName="HotelManagementModel.Store.USP_UpdateDisplayName" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateDisplayName1" FunctionName="HotelManagementModel.Store.USP_UpdateDisplayName1" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateInfo" FunctionName="HotelManagementModel.Store.USP_UpdateInfo" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateInfo1" FunctionName="HotelManagementModel.Store.USP_UpdateInfo1" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateParameter" FunctionName="HotelManagementModel.Store.USP_UpdateParameter" />
+    <FunctionImportMapping FunctionImportName="USP_UpdatePassword" FunctionName="HotelManagementModel.Store.USP_UpdatePassword" />
+    <FunctionImportMapping FunctionImportName="USP_UpdatePassword1" FunctionName="HotelManagementModel.Store.USP_UpdatePassword1" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateReceiveRoom" FunctionName="HotelManagementModel.Store.USP_UpdateReceiveRoom" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateRoom" FunctionName="HotelManagementModel.Store.USP_UpdateRoom" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateRoomType" FunctionName="HotelManagementModel.Store.USP_UpdateRoomType" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateService" FunctionName="HotelManagementModel.Store.USP_UpdateService" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateServiceType" FunctionName="HotelManagementModel.Store.USP_UpdateServiceType" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateStaff" FunctionName="HotelManagementModel.Store.USP_UpdateStaff" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateStaffType" FunctionName="HotelManagementModel.Store.USP_UpdateStaffType" />
+    <FunctionImportMapping FunctionImportName="USP_UpdateStatusRoom" FunctionName="HotelManagementModel.Store.USP_UpdateStatusRoom" />
+  </EntityContainerMapping>
+</Mapping>
